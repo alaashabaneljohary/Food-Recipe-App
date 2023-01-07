@@ -1,0 +1,44 @@
+/* Start Global Rules  */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px ;
+    /* background-color: #FFB100; */
+}
+/* End Global Rules  */
+/* Start Section  */
+.container .text-center .title {
+    font-weight: 700;
+}
+.container .input {
+    width: 100%;
+    margin: auto;
+    border: 3px solid #ff5722;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.container .input .search-control {
+    border: 0;
+    outline: 0;
+    width: 100%;
+}
+.container .input .search-btn{
+  background-color: #ff5722;
+  color: white;
+}
+.container .item 
+{
+    text-align: center;
+    cursor: pointer;
+}
+.container .item h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.container .item .btn a {
+    background-color: #ff5722;
+    color: aliceblue;
+}
